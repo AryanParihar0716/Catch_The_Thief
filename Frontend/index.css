@@ -1,0 +1,29 @@
+body{
+    text-align: center;
+    font-size: large;
+    font-weight: 500;
+    font-style: normal; 
+    background-color: royalblue;
+}
+@keyframes header {
+    from {background-color: rebeccapurple;}
+    to {background-color: rosybrown;}
+}
+#head{
+    display: inline-block;
+    border: 10px solid salmon;
+    border-radius: 20px;
+    background-color: rebeccapurple;
+    color:ghostwhite;
+    transition-property: width height;
+  transition-duration: 2s;
+  transition-timing-function: linear;
+   transition-delay: 1s;
+    animation-name: header;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    width: 500px;
+}
+#head:hover{
+    width: 700px;
+}
