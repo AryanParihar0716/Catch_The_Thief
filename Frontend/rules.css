@@ -1,0 +1,47 @@
+body{
+    font-size: large;
+    font-weight: 900;
+    font-style: italic;
+    background-color: royalblue;
+    text-align: center;
+}
+@keyframes rules {
+  from {background-color: paleturquoise;}
+  to {background-color:burlywood;}
+}
+#rules{
+    text-align: center;
+    height: auto;
+    width: auto;
+    border: 10px solid salmon;
+  animation-name: rules;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+
+}
+#back{
+    text-align: center;
+    background-color: rosybrown;
+    border: 2px solid red;
+    width: 100px;
+}
+#back{
+    transition-duration: 2ms;
+}
+#back:hover{
+    background-color: aquamarine;
+    cursor: pointer;
+}
+#play{
+    text-align: center;
+    background-color: rosybrown;
+    border: 2px solid red;
+    width: 100px;
+}
+#play{
+    transition-duration: 2ms;
+}
+#play:hover{
+    background-color: gold;
+    cursor: pointer;
+}

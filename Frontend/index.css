@@ -4,6 +4,7 @@ body{
     font-weight: 500;
     font-style: normal; 
     background-color: royalblue;
+    
 }
 @keyframes header {
     from {background-color: rebeccapurple;}
@@ -27,3 +28,12 @@ body{
 #head:hover{
     width: 700px;
 }
+#Page_Selection{
+        text-align: center;
+        font-size: large;
+        display: inline-block;
+        font-weight: 700;
+        
+        
+        
+};
