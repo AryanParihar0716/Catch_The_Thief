@@ -20,20 +20,57 @@ body{
   transition-duration: 2s;
   transition-timing-function: linear;
    transition-delay: 1s;
+   transform: 2s;
     animation-name: header;
     animation-duration: 5s;
     animation-iteration-count: infinite;
     width: 500px;
 }
 #head:hover{
-    width: 700px;
+    transform: rotate(-360deg);
 }
-#Page_Selection{
-        text-align: center;
-        font-size: large;
-        display: inline-block;
-        font-weight: 700;
-        
-        
-        
-};
+
+#rules{
+    height: auto;
+    width: auto;
+    background-color: blanchedalmond;
+    color: black;
+    border: 10px ridge chocolate;
+    border-radius: 20px;
+    transform: 2s;
+    animation-name: rule;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+     transition-duration: 2s;
+  transition-timing-function: linear;
+    
+}
+#rules:hover{
+    transform: rotate(-360deg);
+}
+#play:hover{
+    transform: rotate(-360deg);
+}
+#play{
+    height: auto;
+    width: 100px;
+    background-color: greenyellow;
+    border: 10px ridge chocolate;
+    border-radius: 20px;
+    animation-name: play;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    
+     transition-duration: 2s;
+  transition-timing-function: linear;
+  transform: 2s;
+    
+}
+@keyframes rule {
+    from {background-color: blanchedalmond;}
+    to {background-color: green;}
+}
+@keyframes play {
+    from {background-color: greenyellow;}
+    to {background-color: crimson;}
+}
